@@ -1,0 +1,23 @@
+.Footer {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.Footer .logo {
+  display: flex;
+  align-items: center;
+}
+
+.Footer .logo .logo_icon, b {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.Footer .logo b:nth-child(4) {
+  color: #0f0;
+}

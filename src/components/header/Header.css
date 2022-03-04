@@ -1,0 +1,48 @@
+.Header {
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #17202A;
+}
+
+.Header .Header__text-side {
+  width: 45%;
+}
+
+.Header .Header__text-side b {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #999;
+}
+
+.Header .Header__text-side span {
+  color: #f00;
+}
+
+.Header .Header__text-side h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.Header .Header__text-side p {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 10px;
+  color: #999;
+}
+
+.Header .Header__slide-side {
+    width: 50%;
+}
+
+.Header .Header__slide-side .slide_box {
+    width: 100%;
+    /* height: 320px; */
+    background-color: #000;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
