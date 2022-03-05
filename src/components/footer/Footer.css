@@ -1,10 +1,11 @@
 .Footer {
   width: 100%;
-  padding: 20px 100px;
+  padding: 30px 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: #17202A;
 }
 
 .Footer .logo {
