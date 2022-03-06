@@ -1,21 +1,18 @@
-import React from 'react';
-import './Premiere.css';
+import React from "react";
+import "./Premiere.css";
 
 // import Swiper core and required modules
-import { Pagination } from 'swiper';
+import { Pagination } from "swiper";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
-
+import "swiper/css";
+import "swiper/css/pagination";
 
 function Premiere() {
   return (
     <div className="Premiere">
-
       <b className="pro_title">
         <span>NEW</span> <span>PREMIERE</span>
       </b>
@@ -27,26 +24,13 @@ function Premiere() {
         slidesPerView={2}
         pagination={{ clickable: true }}
       >
-        <SwiperSlide className="slide_box">
-          
-        </SwiperSlide>
-        <SwiperSlide className="slide_box">
-          
-        </SwiperSlide>
-        <SwiperSlide className="slide_box">
-          
-        </SwiperSlide>
-        <SwiperSlide className="slide_box">
-          
-        </SwiperSlide>
-        <SwiperSlide className="slide_box">
-          
-        </SwiperSlide>
-        <SwiperSlide className="slide_box">
-          
-        </SwiperSlide>
+        <SwiperSlide className="slide_box"></SwiperSlide>
+        <SwiperSlide className="slide_box"></SwiperSlide>
+        <SwiperSlide className="slide_box"></SwiperSlide>
+        <SwiperSlide className="slide_box"></SwiperSlide>
+        <SwiperSlide className="slide_box"></SwiperSlide>
+        <SwiperSlide className="slide_box"></SwiperSlide>
       </Swiper>
-      
     </div>
   );
 }

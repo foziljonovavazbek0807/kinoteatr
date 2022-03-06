@@ -5,7 +5,7 @@
   align-items: center;
   padding: 15px 100px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  background-color: #17202A;
+  background-color: #17202a;
 }
 
 .Navbar .logo {
@@ -13,7 +13,8 @@
   align-items: center;
 }
 
-.Navbar .logo .logo_icon, b {
+.Navbar .logo .logo_icon,
+b {
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 1px;

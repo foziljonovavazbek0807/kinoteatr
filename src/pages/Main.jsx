@@ -11,9 +11,9 @@ function Main() {
         <Navbar/>
         <Header/>
         <Premiere/>
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card name="MOVIES"/>
+        <Card name="SERIALS"/>
+        <Card name="CARTOONS"/>
         <Footer/>
     </div>
   )

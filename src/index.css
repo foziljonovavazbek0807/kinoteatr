@@ -9,6 +9,9 @@
     font-family: 'Rowdies', cursive;
 }
 
+body {
+    scroll-behavior: smooth;
+}
 /* ===== Scrollbar CSS ===== */
 
 /* Firefox */

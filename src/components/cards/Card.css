@@ -23,75 +23,77 @@
 }
 
 .Card .card_slider {
-    width: 100%;
-    margin-top: 50px;
+  width: 100%;
+  margin-top: 50px;
 }
 
 .Card .card_slider .slide_box {
-    width: 100%;
-    margin-bottom: 40px;
-    background-color: #000;
-    border-radius: 10px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
 }
 
 .Card .card_slider .slide_box img {
-    width: 100%;
-    height: 320px;
-    border-radius: 10px;
+  width: 100%;
+  height: 320px;
+  border-radius: 10px;
 }
 
 .Card .card_slider .slide_box .card_title {
-    width: 100%;
-    font-size: 18px;
-    font-weight: lighter;
-    text-align: center;
-    margin-top: 10px;
-    letter-spacing: 1px;
-    text-align: center;
+  width: 100%;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 .Card .card_slider .slide_box .card_btn {
-    width: 100%;
-    padding: 10px 0;
-    background-color: #f00;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-    margin-top: 10px;
-    letter-spacing: 1px;
-    transition: 0.4s;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #f00;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  transition: 0.4s;
 }
 
 .Card .card_slider .slide_box .card_btn:active {
-    transform: scale(0.97);
+  transform: scale(0.97);
 }
 
 .Card .card_slider .slide_box .card_rew {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
 }
 
 .Card .card_slider .slide_box .card_rew .rew_year {
-    font-size: 15px;
-    font-weight: lighter;
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 .Card .card_slider .slide_box .card_rew .rew_watch {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.Card .card_slider .slide_box .card_rew .rew_watch .rew_see, .rew_eye {
-    font-size: 15px;
-    font-weight: lighter;
+.Card .card_slider .slide_box .card_rew .rew_watch .rew_see,
+.rew_eye {
+  font-size: 15px;
+  font-weight: lighter;
 }
