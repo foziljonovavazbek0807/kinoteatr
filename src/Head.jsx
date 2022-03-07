@@ -1,8 +1,9 @@
-import React from 'react';
-import './Head.css';
-import MOVIELOGO from './assets/movie-logo.png';
-import VIDEO from './assets/clood.mp4';
-import { AiOutlineArrowDown } from 'react-icons/ai';
+import React from "react";
+import "./Head.css";
+import MOVIELOGO from "./assets/movie-logo.png";
+import VIDEO from "./assets/clood.mp4";
+import { AiOutlineArrowDown } from "react-icons/ai";
+import { Link, Navigate } from "react-router-dom";
 
 function Head() {
   return (
@@ -14,9 +15,9 @@ function Head() {
         </a>
         <p className="und_text">Press the button and enjoy the films!</p>
         <AiOutlineArrowDown className="down_arrow" />
-        <a href="#!" className="start_btn">
+        <Link to="/main" className="start_btn">
           Get start
-        </a>
+        </Link>
       </div>
     </div>
   );
