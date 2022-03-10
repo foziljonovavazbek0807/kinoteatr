@@ -23,8 +23,8 @@ function Card(props) {
       <Swiper
         className="card_slider"
         modules={[Pagination]}
-        spaceBetween={30}
-        slidesPerView={4}
+        spaceBetween={10}
+        slidesPerView={5}
         pagination={{ clickable: true }}
       >
         <SwiperSlide className="slide_box">

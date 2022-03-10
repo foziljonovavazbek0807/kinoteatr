@@ -7,9 +7,9 @@ function Navbar() {
   return (
     <nav className="Navbar">
       <a href="#!" className="logo">
-        <b>KIN</b>
+        <b className="logo_text">KIN</b>
         <MdOutlineSlowMotionVideo className="logo_icon" />
-        <b>TEATR</b>
+        <b className="logo_text">TEATR</b>
       </a>
       <form className="search_block">
         <input type="text" placeholder="Movie search" />
