@@ -25,19 +25,19 @@
 .Tv .tv_watch {
   width: 100%;
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
   margin-top: 50px;
 }
 
 .Tv .tv_watch .tv_movie {
-  width: 70%;
+  width: 69%;
   background-color: #000;
   border-radius: 10px;
   padding: 10px;
 }
 
 .Tv .tv_watch .tv_about {
-  width: 30%;
+  width: 29%;
   padding: 20px;
   border-radius: 10px;
   background-color: #000;
@@ -139,4 +139,43 @@
   font-size: 16px;
   outline: none;
   font-weight: lighter;
+}
+
+/* === Media === */
+
+@media screen and (max-width: 992px) {
+  .Tv {
+    padding: 50px;
+  }
+
+  .Tv .pro_title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  .Tv {
+    padding: 30px;
+  }
+
+  .Tv .pro_title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Tv {
+    padding: 20px;
+  }
+
+  .Tv .pro_title {
+    padding: 10px 5px;
+    border-left: 5px solid #000;
+  }
+}
+
+@media screen and (max-width: 400px) {
 }

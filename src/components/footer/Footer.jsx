@@ -38,11 +38,6 @@ function Footer() {
           provided for information only. <br /> Source: www.kinoteatr.live
         </p>
       </div>
-
-      <div className="footer_contact">
-        <FiPhoneCall className="contact_icon" />
-        <a href="#!">+998 33 016 06 05</a>
-      </div>
     </footer>
   );
 }

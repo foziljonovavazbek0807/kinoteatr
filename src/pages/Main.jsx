@@ -10,10 +10,11 @@ function Main() {
     <div className="Main">
         <Navbar/>
         <Header/>
-        <Premiere/>
+        <Premiere name="NEW"/>
         <Card name="MOVIES"/>
         <Card name="SERIALS"/>
         <Card name="CARTOONS"/>
+        <Premiere name="SOON"/>
         <Footer/>
     </div>
   )

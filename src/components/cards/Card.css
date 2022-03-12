@@ -2,6 +2,7 @@
   width: 100%;
   padding: 50px 100px;
   background-color: #17202a;
+  overflow-x: hidden;
 }
 
 .Card .pro_title {
@@ -25,11 +26,12 @@
 .Card .card_slider {
   width: 100%;
   margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Card .card_slider .slide_box {
-  width: 100%;
-  margin-bottom: 40px;
+  width: 24%;
   background-color: #000;
   border-radius: 10px;
   padding: 15px;
@@ -102,41 +104,92 @@
 
 @media screen and (max-width: 992px) {
   .Card {
-    padding: 50px 50px 0 50px;
+    padding: 50px;
   }
 
   .Card .pro_title {
     font-size: 22px;
   }
+
+  .Card .card_slider .slide_box img {
+    height: 280px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .Card .pro_title {
-    font-size: 20px;
+  .Card .card_slider {
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .Card .card_slider .slide_box {
+    width: 48%;
+    margin-top: 20px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .Card {
-    padding: 30px 30px 0 30px;
+    padding: 30px;
   }
 
   .Card .pro_title {
-    font-size: 18px;
+    font-size: 20px;
+  }
+
+  .Card .card_slider {
+    margin-top: 20px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .Card {
-    padding: 20px 20px 0 20px;
+    padding: 20px;
   }
 
   .Card .pro_title {
-    font-size: 18px;
     padding: 10px 5px;
     border-left: 5px solid #000;
   }
+
+  .Card .card_slider .slide_box img {
+    height: 250px;
+  }
+
+  .Card .card_slider .slide_box .card_title {
+    font-size: 16px;
+  }
+
+  .Card .card_slider .slide_box .card_btn {
+    padding: 8px 0;
+    font-size: 12px;
+  }
+
+  .Card .card_slider .slide_box .card_rew .rew_year {
+    font-size: 12px;
+  }
+
+  .Card .card_slider .slide_box .card_rew .rew_watch .rew_see,
+  .rew_eye {
+    font-size: 12px;
+  }
 }
 
-/* @media screen and (max-width: 350px) {
-} */
+@media screen and (max-width: 400px) {
+  .Card .card_slider {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .Card .card_slider .slide_box {
+    width: 90%;
+  }
+
+  .Card .card_slider .slide_box img {
+    height: 300px;
+  }
+
+  .Card .card_slider .slide_box .card_btn {
+    padding: 10px 0;
+  }
+}

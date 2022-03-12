@@ -16,6 +16,7 @@ function Navbar() {
         <a href="#!" className="search_icon">
           <BiSearch />
         </a>
+        <button className="btn_search">Search</button>
       </form>
     </nav>
   );
