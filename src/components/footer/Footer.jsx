@@ -13,24 +13,6 @@ function Footer() {
         <b>LIVE</b>
       </a>
 
-      <ul className="footer_menu">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#!">About</a>
-        </li>
-        <li>
-          <a href="#!">Comment</a>
-        </li>
-        <li>
-          <a href="#!">FAQ</a>
-        </li>
-        <li>
-          <a href="#!">Contact</a>
-        </li>
-      </ul>
-
       <div className="footer_copyright">
         <p>&copy;kinoteatr.live - 2022</p>
         <p>
