@@ -24,15 +24,26 @@
 
 .Tv .tv_watch {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 50px;
 }
 
 .Tv .tv_watch .tv_movie {
   width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -49,9 +60,18 @@
   padding: 20px;
   border-radius: 10px;
   background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   cursor: default;
   position: relative;
@@ -84,7 +104,11 @@
 
 .Tv .tv_watch .tv_movie .tv_about .about_text {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 10px;
   margin-top: 20px;
@@ -102,7 +126,11 @@
 
 .Tv .tv_watch .tv_movie .tv_about .like {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 30px;
   margin-top: 20px;
@@ -110,7 +138,11 @@
 }
 
 .Tv .tv_watch .tv_movie .tv_about .like span {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 10px;
 }
@@ -122,6 +154,7 @@
 }
 
 .Tv .tv_watch .tv_movie .tv_about .like span img:active {
+  -webkit-transform: scale(0.95);
   transform: scale(0.95);
 }
 
@@ -132,7 +165,11 @@
 
 .Tv .tv_watch .tv_movie .tv_about .comment {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 20px;
   position: relative;
@@ -169,46 +206,36 @@
 }
 
 /* === Media === */
-
 @media screen and (max-width: 992px) {
   .Tv {
     padding: 50px;
   }
-
   .Tv .pro_title {
     font-size: 22px;
   }
-
   .Tv .tv_watch {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-
   .Tv .tv_watch .ad_block {
     width: 100%;
     margin-top: 50px;
   }
-
   .Tv .tv_watch .tv_movie {
     width: 100%;
   }
-}
-
-@media screen and (max-width: 768px) {
 }
 
 @media screen and (max-width: 576px) {
   .Tv {
     padding: 50px 30px 30px 30px;
   }
-
   .Tv .pro_title {
     font-size: 20px;
   }
-
   .Tv .tv_watch .tv_movie .tv_about {
     padding: 10px;
   }
-
   .Tv .tv_watch .tv_movie .tv_about {
     width: 100%;
   }
@@ -218,34 +245,27 @@
   .Tv {
     padding: 50px 20px 20px 20px;
   }
-
   .Tv .pro_title {
     padding: 10px 5px;
     border-left: 5px solid #000;
   }
-
   .Tv .tv_watch .tv_movie .tv_about .about_text .about_icon {
     font-size: 30px;
   }
-
   .Tv .tv_watch .tv_movie .tv_about .about_text p {
     font-size: 15px;
   }
-
   .Tv .tv_watch .tv_movie .tv_about .like span img {
     width: 30px;
     height: 30px;
   }
-
   .Tv .tv_watch .tv_movie .tv_about .like span h5 {
     font-size: 18px;
   }
-
   .Tv .tv_watch .tv_movie .tv_about .comment input {
     padding: 8px 100px 8px 8px;
     font-size: 15px;
   }
-
   .Tv .tv_watch .tv_movie .tv_about .comment .btn_submit {
     padding: 8px 20px;
     font-size: 15px;
@@ -256,20 +276,16 @@
   .Tv .tv_watch .tv_movie .tv_about b {
     font-size: 17px;
   }
-
   .Tv .tv_watch .tv_movie .tv_about .about_text .about_icon {
     font-size: 25px;
   }
-
   .Tv .tv_watch .tv_movie .tv_about .about_text p {
     font-size: 13px;
   }
-
   .Tv .tv_watch .tv_movie .tv_about .comment input {
     padding: 6px 80px 6px 6px;
     font-size: 13px;
   }
-
   .Tv .tv_watch .tv_movie .tv_about .comment .btn_submit {
     padding: 6px 15px;
     font-size: 13px;
