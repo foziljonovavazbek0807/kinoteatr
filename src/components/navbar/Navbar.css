@@ -124,7 +124,7 @@
 @media screen and (max-width: 500px) {
   .Navbar {
     width: 100%;
-    padding: 15px 20px;
+    padding: 10px 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -135,7 +135,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    gap: 10px;
+    /* gap: 10px; */
   }
   .Navbar .logo {
     width: 100%;
@@ -149,6 +149,7 @@
   }
   .Navbar .search_block {
     width: 100%;
+    margin-top: 10px;
   }
   .Navbar .search_block input {
     padding: 7px 90px 7px 35px;
